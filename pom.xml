@@ -10,9 +10,9 @@
     <!-- lookup parent from repository --> 
   </parent>  
   <groupId>com.b2c</groupId>  
-  <artifactId>demo</artifactId>  
+  <artifactId>appconfig-b2c</artifactId>
   <version>0.0.1-SNAPSHOT</version>  
-  <name>demo</name>  
+  <name>appconfig-b2c</name>
   <description>Demo project for Spring Boot</description>  
   <properties> 
     <java.version>1.8</java.version> 
@@ -55,10 +55,10 @@
         <configuration> 
           <schemaVersion>v2</schemaVersion>  
           <subscriptionId>8e29918d-ee2e-4850-ad39-0b824ee35bb9</subscriptionId>  
-          <resourceGroup>demo-1629887854747-rg</resourceGroup>  
-          <appName>demo-1629887854747</appName>  
+          <resourceGroup>appconfig-b2c</resourceGroup>
+          <appName>appconfig-b2c</appName>
           <pricingTier>F1</pricingTier>  
-          <region>westeurope</region>  
+          <region>eastus</region>
           <runtime> 
             <os>Linux</os>  
             <javaVersion>Java 8</javaVersion>  
