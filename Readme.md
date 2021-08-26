@@ -5,7 +5,7 @@
 mvn com.microsoft.azure:azure-webapp-maven-plugin:1.14.0:config
 
 ##Build and Push
-export APP_CONFIGURATION_CONNECTION_STRING='Endpoint=https://b2c-partner.azconfig.io;Id=mdh3-l2-s0:Svn6yh1AnRAjuGE7lxLo;Secret=B6NjfmLMZqnyMT4Ha0TEHKNJwkNcVV+Bu4BolnvTa4s='
+export APP_CONFIGURATION_CONNECTION_STRING='<connection string>'
 
 mvn clean package azure-webapp:deploy
 
