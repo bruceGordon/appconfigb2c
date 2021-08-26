@@ -1,4 +1,4 @@
-package com.b2c.demo;
+package com.lumen.b2c;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

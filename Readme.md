@@ -9,6 +9,11 @@ export APP_CONFIGURATION_CONNECTION_STRING='Endpoint=https://b2c-partner.azconfi
 
 mvn clean package azure-webapp:deploy
 
+##Local Deploy
+mvn clean package
+mvn spring-boot:run
+
+curl http://localhost:8080/config 
 
 #References
 https://docs.microsoft.com/en-us/azure/azure-app-configuration/quickstart-java-spring-app?WT.mc_id=Portal-Microsoft_Azure_AzConfig
