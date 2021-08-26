@@ -7,6 +7,9 @@ mvn com.microsoft.azure:azure-webapp-maven-plugin:1.14.0:config
 ##Build and Push
 export APP_CONFIGURATION_CONNECTION_STRING='<connection string>'
 
+    Connection String is available in Application Settings under Azure App Service appconfig-b2c
+
+
 mvn clean package azure-webapp:deploy
 
 ##Local Deploy
