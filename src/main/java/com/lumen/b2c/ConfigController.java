@@ -14,7 +14,7 @@ public class ConfigController {
     }
 
     @GetMapping("/config")
-    public Config config() {
-        return new Config(properties);
+    public MessageProperties config() {
+        return properties;
     }
 }
