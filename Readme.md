@@ -19,7 +19,7 @@ mvn spring-boot:run
 curl http://localhost:8080/config 
 
 #References
-https://docs.microsoft.com/en-us/azure/azure-app-configuration/quickstart-java-spring-app?WT.mc_id=Portal-Microsoft_Azure_AzConfig
+https://docs.microsoft.com/eexport APP_CONFIGURATION_CONNECTION_STRING='n-us/azure/azure-app-configuration/quickstart-java-spring-app?WT.mc_id=Portal-Microsoft_Azure_AzConfig
 
 https://spring.io/guides/gs/spring-boot-for-azure/
 
